@@ -1,6 +1,9 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://github.com/williamdean19/my-first-gatsby-site`,
+    title: "My First Gatsby Site",
   },
-  plugins: [],
-}
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+  ],
+};
